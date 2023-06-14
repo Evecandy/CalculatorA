@@ -1,0 +1,70 @@
+
+/*Google fonts poppins*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik&display=swap');
+
+  * {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(39, 34, 34), rgb(103, 103, 199));
+      
+      
+  }
+
+  .container .calculator {
+    background: transparent;
+    border: 1px solid rgb(103, 103, 137);
+    padding:20px;
+    border-radius: 16px;
+    box-shadow: 0 3px 15px rgba(113,115,119, 0.5);
+
+  }
+
+  .container .calculator .screen {
+    width:320px;
+    padding:24px;
+    margin: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    color: white;
+    box-shadow: 0 3px 15px rgba(84, 84, 84, 0.1);
+    text-align: right;
+    cursor: pointer;
+  }
+
+  .container .calculator .screen::placeholder {
+    color:white;
+  }
+
+  .container .calculator .button {
+    border: none;
+    width:60px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    color-scheme: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1);
+
+  }
+
+  .container .calculator .operator {
+    color:#60D700;
+  }
+
+  .container .calculator .equals {
+    background: #ED8220;
+  }
